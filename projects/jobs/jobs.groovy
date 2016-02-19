@@ -1,7 +1,7 @@
 // Constants
 def gerritBaseUrl = "ssh://jenkins@gerrit:29418"
 def cartridgeBaseUrl = gerritBaseUrl + "/cartridges"
-def platformToolsGitUrl = gerritBaseUrl + "/platform-management-test"
+def platformToolsGitUrl = gerritBaseUrl + "/platform-management"
 
 // Folders
 def workspaceFolderName = "${WORKSPACE_NAME}"

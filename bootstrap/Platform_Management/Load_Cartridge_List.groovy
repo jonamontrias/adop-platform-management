@@ -1,5 +1,5 @@
 // Constants
-def platformToolsGitURL = "ssh://jenkins@gerrit:29418/platform-management-test"
+def platformToolsGitURL = "ssh://jenkins@gerrit:29418/platform-management"
 
 def platformManagementFolderName= "/Platform_Management"
 def platformManagementFolder = folder(platformManagementFolderName) { displayName('Platform Management') }
