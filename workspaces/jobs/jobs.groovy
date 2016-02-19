@@ -1,5 +1,5 @@
 // Constants
-def platformToolsGitURL = "ssh://jenkins@gerrit:29418/platform-management"
+def platformToolsGitURL = "ssh://jenkins@gerrit:29418/platform-management-test"
 
 // Folders
 def workspaceFolderName = "${WORKSPACE_NAME}"
