@@ -1,1 +1,1 @@
-https://github.com/Accenture/adop-cartridge-java.git
+https://github.com/Accenture/adop-cartridge-hcm.git
