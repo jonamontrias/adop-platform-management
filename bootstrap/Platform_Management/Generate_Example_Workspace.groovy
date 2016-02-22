@@ -3,15 +3,15 @@ def platformManagementFolderName= "/Platform_Management"
 def platformManagementFolder = folder(platformManagementFolderName) { displayName('Platform Management') }
 
 // Jobs
-def generateExampleWorkspaceJob = workflowJob(platformManagementFolderName + "/Generate_Example_Workspace")
+def generateExampleWorkspaceJob = workflowJob(platformManagementFolderName + "/Generate_Oracle_Workspace")
  
 generateExampleWorkspaceJob.with{
     parameters{
-        stringParam("projectName","ExampleProject","")
+        stringParam("projectName","HCM","")
         stringParam("projectAdmin","Admin","")
         stringParam("projectDeveloper","Developer","")
         stringParam("projectViewer","Viewer","")
-        stringParam("workspaceName","ExampleWorkspace","")
+        stringParam("workspaceName","Oracle","")
         stringParam("workspaceAdmin","Admin","")
         stringParam("workspaceDeveloper","Developer","")
         stringParam("workspaceViewer","Viewer","")
